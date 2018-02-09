@@ -3,8 +3,13 @@
 const fp = (arr, cb) => {
 
     fp.forEach = (arr, cb) => {
-        if (arr.length === 0 || arr === null)
+        if (arr.length === 0 || arr === null) {
             return undefined;
+        } else {
+            let result = [];
+        for (let i = 0; i < arr.length; i ++);
+        }
+        return result;
     }
 
     fp.map = (arr, cb) => {
